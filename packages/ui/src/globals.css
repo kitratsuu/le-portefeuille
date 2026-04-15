@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Tell Tailwind to scan this package */
+@source "./**/*.{ts,tsx}";
