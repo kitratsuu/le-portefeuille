@@ -8,6 +8,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
+  "config": {
+    "unsafe-perm": true
+  },
   "devDependencies": {
     "prettier": "^3.7.4",
     "turbo": "^2.8.12",
